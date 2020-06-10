@@ -1,0 +1,351 @@
+body{
+  font-size: 15pt;
+  font-family: 'Roboto', sans-serif;
+  color: #a8b9c0;
+  padding: 0;
+  margin: 0;
+}
+
+/* Global */
+
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+a{
+  text-decoration: none;
+}
+
+.button_1{
+  background-color: #ff3150;
+  border-radius: 10px;
+  padding: 10px 25px 10px 25px;
+  border: none;
+  color: #ffc501;
+  text-align: center;  
+}
+
+/* Header */
+.header {
+  background:#19283f;
+  padding: 0;
+  margin: 0; 
+  height: 500px;   
+}
+
+#logo{
+  width: 87px;
+  height: 44px;
+  margin-left: 378px;
+  margin-top: 0;
+  padding: 0;
+}
+
+.nav{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-left: 928px;
+  margin-top: -18px;
+}
+
+.nav li{
+  display: inline;
+  color: #a8b9c0;
+  padding: 5px;
+}
+
+.nav li a{
+  text-decoration: none;
+  color: #a8b9c0;
+}
+
+#current{
+  color: #00c7c0;
+}
+
+#button_search{
+  background: transparent;
+  border: 1px solid #00c7c0;
+  border-bottom: 0;
+  border-top: 0;
+  border-right: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 18px;
+  padding: 0 0 0 10px;
+}
+
+
+.title{
+  text-align: center;
+  margin-top: 166px;
+}
+
+.title h1{
+  color: #f0f8fb;
+  font-size: 51pt;
+  font-weight: 100;
+  margin: 0;
+}
+
+.title p{
+  margin: 0;
+}
+
+#getstarted{
+  margin-top: 37px;
+}
+
+/* Intro */
+
+.title_2{
+  text-align: center;
+  /*width: 50%;*/
+}
+
+.title_2 h2{
+  font-size: 35pt;
+  color: #1a2940;
+  margin: 56px 0 25px 0;
+}
+
+.composite_img{
+  margin: 58px 0 0 0;
+}
+
+.description{
+  border-bottom: 1px solid #00c7c0;
+  border-bottom-width: 15;
+}
+
+.boxes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 65px;
+}
+
+.box{
+  width: 15%;
+  margin: 0 100px 0 100px;
+}
+
+/* Projects */
+
+.projects{
+  height: 968px;
+  background: #eff7fa;
+  text-align: center;
+}
+
+.projects_nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects_nav li{
+  display: inline;
+  margin: 43px;
+}
+
+#current_nav{
+  background: #ff3150;
+  border-radius: 10px;
+  color: #ffc501;
+  padding: 10px 20px 10px 20px;
+}
+
+.projects_boxes{
+  width: 100%;
+  margin-top: 74px;
+  display: grid;
+  grid-template-columns: 270px 270px 270px 270px;
+  grid-template-rows: 200px 200px;
+  grid-column-gap: 30px;
+  grid-row-gap: 27px;
+  justify-content: center;
+  margin-bottom: 58px;
+}
+
+.projects_boxes p, h2{
+  text-align: center;
+}
+
+.items{
+  background-color: #ffffff;
+}
+
+.projects_boxes :hover{
+  background-color: #00c7c0;
+  color: #ffffff;
+}
+
+/* Some stuff */
+
+.retina{
+  display: flex;
+  text-align: ;
+}
+
+
+/* About Us */
+
+/* #descriptionGT p{
+width: 30px;
+} */
+
+.meet{
+  background: #eff7fa;
+  height: 710px;
+  padding-top: 110px;
+}
+
+.team{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 220px 220px 220px 220px;
+  grid-template-rows: 220px 50px 120px;
+  grid-column-gap: 30px;
+  justify-content: center;
+  align-content: center;
+  margin-top: 65px;
+}
+
+.timg{
+  text-align: center;
+  position: ;
+  background: #ffffff;
+}
+
+.team img{
+  max-width: 100%;
+}
+
+.name{
+  background: #00c7c0;
+  color: #ffffff;
+  text-align: center;
+  font-size: 20pt;
+}
+
+
+.partners{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 180px;
+}
+
+.partner{
+  margin-left: 100px;
+}
+
+
+/* Start */
+
+.start{
+  height: 390px;
+  padding-top: 120px;
+  background-color: #19283f;
+  text-align: center;
+}
+
+.start .title_2 h2{
+  color: #ffffff;
+}
+
+#startbutton{
+  margin-top: 50px;
+}
+
+.blog{
+  text-align: center;
+}
+
+/* Subscribe */
+
+.subscribe{
+  display: flex;
+  background-color: #ffc400;
+  height: 90px;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
+}
+.subscribe div{
+  margin: 20px;
+}
+
+#newsletter{
+  color: #1a2940;
+}
+
+.subscribe input{
+  border-width: 0px 0px 1px 0px ;
+  background: transparent;
+  color: #ffffff;
+  width: 440px;
+}
+
+::-webkit-input-placeholder{
+  color: #ffffff;
+}
+
+.button_3{
+  background-color: #1a2940;
+  border-radius: 10px;
+  padding: 10px 25px 10px 25px;
+  border: none;
+  color: #ffc501;
+  text-align: center;
+ }  
+
+
+ /* Footer */
+
+ .footer{
+   background: #19283f;
+   height: 350px;
+   padding-top: 60px;
+ }
+
+ .footerlist{
+   display: grid;
+   grid-template-columns: 300px 100px 100px 200px;
+   grid-column-gap: 100px;
+   justify-content: center;
+ }
+
+ .footerlist li{
+   list-style-type: none;
+   padding-bottom: 20px;
+ }
+
+ .footerlist .bold{
+   color: #ffffff;
+   font-weight: bold;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
